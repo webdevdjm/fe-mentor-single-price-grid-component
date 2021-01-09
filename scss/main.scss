@@ -75,7 +75,7 @@ section.price {
     background-color: hsl(71, 73%, 54%);
     border-radius: 5px;
     border: none;
-    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.1);
     color: #fff;
     font-family: 'Karla', sans-serif;
     font-size: 18px;
@@ -84,6 +84,10 @@ section.price {
     margin-top: 15px;
     width: 100%;
     cursor: pointer;
+    transition: 0.5s;
+  }
+  button:hover {
+    opacity: 0.8;
   }
 }
 
